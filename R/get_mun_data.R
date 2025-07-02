@@ -4,7 +4,7 @@
 #' FGV - Municipios de acordo com o nome do indicador ou código do indicador na API
 #' por município.
 #'
-#' @param cod_ibge Vetor character contendo os códigos dos municipios segundo IBGE.
+#' @param cod_ibge Vetor character contendo os códigos dos municipios segundo IBGE. Caso nada seja passado ao argumento, usará so códigos de todos os municípios do Brasil.
 #' @param indicator_name Vetor character contendo os nomes dos indicadores. Caso `NULL` a função usará os códigos dos indicadores.
 #' @param indicator_code Vetor character contendo os códigos dos indicadores na API. Caso nada seja passado ao argumento, usará os códigos de todos os indicadores.
 #'

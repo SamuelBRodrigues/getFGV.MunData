@@ -11,7 +11,7 @@ get_mun_data(
 )
 }
 \arguments{
-\item{cod_ibge}{Vetor character contendo os códigos dos municipios segundo IBGE.}
+\item{cod_ibge}{Vetor character contendo os códigos dos municipios segundo IBGE. Caso nada seja passado ao argumento, usará so códigos de todos os municípios do Brasil.}
 
 \item{indicator_name}{Vetor character contendo os nomes dos indicadores. Caso `NULL` a função usará os códigos dos indicadores.}
 
