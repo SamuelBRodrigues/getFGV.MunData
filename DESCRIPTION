@@ -1,18 +1,25 @@
 Package: getFGV.MunData
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Extração dos dados Municipais da Plataforma FGV - Municípios.
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Rodrigues", "Samuel",
+      email = "sam.baraque@gmail.com",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: O pacote getFGV.MunData extrai os dados dos indicadores municipais 
+    da plataforma FGV - Municípios através de um conexão com a API.
+    A conexão com a API é feita através do pacote httr2 pelo código do indicador
+    apresentado pela API. O pacote oferece a possibilidade de ver todos os indicadores
+    de forma bem estruturada.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/SamuelBRodrigues/getFGV.MunData
 BugReports: https://github.com/SamuelBRodrigues/getFGV.MunData/issues
+Depends: 
+    R (>= 3.5)
+Imports: 
+    httr2
