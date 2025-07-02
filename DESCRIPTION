@@ -23,3 +23,4 @@ Depends:
     R (>= 3.5)
 Imports: 
     httr2
+RoxygenNote: 7.3.2
